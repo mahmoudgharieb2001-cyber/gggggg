@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>السنوسي | منصة لتحفيظ القرآن الكريم</title>
+<meta name="description" content="السنوسي منصة تساعدك على تنظيم رحلة حفظ القرآن الكريم، والتواصل مع المحفظين، ومتابعة تقدمك.">
+<meta property="og:title" content="السنوسي - منصة لتحفيظ القرآن الكريم"><meta property="og:type" content="website">
+<meta property="og:description" content="احفظ كتاب الله خطوة بخطوة">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23c9a24a' d='M50 4l12 30 32 12-32 12-12 30-12-30L6 46l32-12z'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site"><div class="container row">
+  <div class="brand"><svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="#c9a24a" stroke-width="3"><rect x="18" y="18" width="64" height="64"/><rect x="18" y="18" width="64" height="64" transform="rotate(45 50 50)"/><circle cx="50" cy="50" r="14" fill="#c9a24a" fill-opacity=".25"/></g></svg><div><h1>السنوسي</h1><small>منصة لتحفيظ القرآن الكريم</small></div></div>
+  <nav class="main" aria-label="القائمة الرئيسية">
+    <a href="index.html">الرئيسية</a><a href="quran.html">القرآن</a><a href="teachers.html">المحفظون</a>
+    <a href="adhkar.html">الأذكار</a><a href="#dedication">الإهداء</a>
+    <span id="guest"><button class="btn light" data-open="login">تسجيل الدخول</button>
+    <button class="btn ghost" data-open="register">إنشاء حساب</button></span>
+    <span id="user" class="hidden"><a class="btn light" href="dashboard.html">لوحتي</a>
+    <button class="btn ghost" id="out">تسجيل خروج</button></span>
+  </nav>
+</div></header>
+
+<section class="hero"><div class="stars" aria-hidden="true"></div><div class="moon" aria-hidden="true"></div><svg class="ornament" viewBox="0 0 200 200" aria-hidden="true"><g fill="none" stroke="#c9a24a" stroke-width=".6"><rect x="30" y="30" width="140" height="140"/><rect x="30" y="30" width="140" height="140" transform="rotate(45 100 100)"/><circle cx="100" cy="100" r="70"/><circle cx="100" cy="100" r="48"/><rect x="60" y="60" width="80" height="80" transform="rotate(22.5 100 100)"/><rect x="60" y="60" width="80" height="80" transform="rotate(67.5 100 100)"/></g></svg><div class="hero-in"><p class="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p><h2>احفظ كتاب الله<br><span class="gold">خطوة بخطوة</span></h2><p class="lead">السنوسي منصة تساعدك على تنظيم رحلة حفظ القرآن الكريم، والتواصل مع المحفظين، ومتابعة تقدمك في الحفظ والمراجعة.</p><button class="btn gold" data-open="register">ابدأ رحلة الحفظ</button> <a class="btn ghost" href="quran.html">تصفح القرآن</a></div><div class="wave"></div></section>
+
+<section class="block"><div class="container"><h2>خدماتنا</h2><div class="grid">
+<a class="card" href="quran.html"><span class="ico"><i>📖</i></span><h3>القرآن الكريم</h3><p>اقرأ واستمع.</p></a>
+<a class="card" href="teachers.html"><span class="ico"><i>🕌</i></span><h3>المحفظون</h3><p>تواصل مع محفظ معتمد.</p></a>
+<div class="card"><span class="ico"><i>✅</i></span><h3>متابعة الحفظ</h3><p>سجّل حفظك ومراجعتك.</p></div>
+<a class="card" href="adhkar.html"><span class="ico"><i>📿</i></span><h3>الأذكار</h3><p>أذكار الصباح والمساء وغيرها.</p></a>
+<div class="card"><span class="ico"><i>🗓️</i></span><h3>خطط الحفظ</h3><p>خطة واضحة بنسبة إنجاز.</p></div>
+<div class="card"><span class="ico"><i>🔔</i></span><h3>التذكير</h3><p>إشعارات بطلباتك وجلساتك.</p></div>
+</div></div></section>
+
+<section class="block" id="dedication"><div class="container"><div class="card dedication" style="white-space:pre-line">هذا العمل إهداء لروح:
+محمد جلال
+هدى محمد
+سنوسي محمد
+حاملينها عبد العظيم
+
+نسأل الله أن يرحمهم ويغفر لهم، وأن يجعل هذا العمل صدقة جارية عنهم.</div></div></section>
+<footer><div class="container">السنوسي — صدقة جارية &middot; <a href="teachers.html">المحفظون</a></div></footer>
+
+<div class="modal hidden" id="authModal" role="dialog" aria-modal="true" aria-labelledby="mt"><div class="card">
+<h3 id="mt"></h3>
+<div id="f">
+<label for="name" id="nl">الاسم</label><input id="name" autocomplete="name">
+<label for="email">البريد الإلكتروني</label><input id="email" type="email" autocomplete="email">
+<label for="pw">كلمة المرور</label><input id="pw" type="password" autocomplete="current-password">
+<div id="regOnly">
+<label for="role">نوع الحساب</label><select id="role"><option value="student">طالب</option><option value="teacher">محفظ</option></select>
+<div id="tf" class="hidden">
+<label for="wa">رقم WhatsApp (خاص)</label><input id="wa" inputmode="tel">
+<label for="bio">نبذة عنك</label><textarea id="bio"></textarea>
+<label for="spec">التخصص</label><input id="spec">
+<label for="parts">الأجزاء التي تحفّظها</label><input id="parts" placeholder="مثال: 1-30">
+<label for="gov">المحافظة</label><input id="gov"><label for="city">المدينة</label><input id="city">
+<label for="method">طريقة التحفيظ</label><select id="method"><option>أونلاين</option><option>حضوري</option><option>كلاهما</option></select>
+<label for="avail">أوقات التوفر</label><input id="avail">
+</div></div>
+<p><button class="btn" id="go">متابعة</button> <button class="btn ghost" id="close" style="color:var(--text)">إغلاق</button></p>
+</div></div></div>
+
+<script type="module">
+import { auth, db } from "./js/firebase.js";
+import { register, login, logout, getRole, onAuthStateChanged } from "./js/auth.js";
+import { toast, errMsg, showDedication } from "./js/utils.js";
+import { doc, getDoc } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+const $ = s => document.querySelector(s); let mode = "login";
+const setMode = m => { mode = m; $("#mt").textContent = m === "login" ? "تسجيل الدخول" : "إنشاء حساب";
+  $("#regOnly").classList.toggle("hidden", m === "login"); $("#name").classList.toggle("hidden", m === "login"); $("#nl").classList.toggle("hidden", m === "login");
+  $("#authModal").classList.remove("hidden"); $("#email").focus(); };
+document.querySelectorAll("[data-open]").forEach(b => b.onclick = () => setMode(b.dataset.open));
+$("#close").onclick = () => $("#authModal").classList.add("hidden");
+$("#role").onchange = e => $("#tf").classList.toggle("hidden", e.target.value !== "teacher");
+$("#out").onclick = logout;
+$("#go").onclick = async () => {
+  const btn = $("#go"); btn.disabled = true;
+  try {
+    if (mode === "login") await login($("#email").value.trim(), $("#pw").value);
+    else {
+      const role = $("#role").value;
+      const teacher = role === "teacher" ? { whatsapp: $("#wa").value.trim(), bio: $("#bio").value.trim(), specialties: $("#spec").value.trim(),
+        memorizationParts: $("#parts").value.trim(), governorate: $("#gov").value.trim(), city: $("#city").value.trim(),
+        teachingMethod: $("#method").value, availability: $("#avail").value.trim() } : {};
+      if (!$("#name").value.trim()) throw { code: "x" };
+      await register({ name: $("#name").value.trim(), email: $("#email").value.trim(), password: $("#pw").value, role, teacher });
+    }
+    location.href = "dashboard.html";
+  } catch (e) { toast(errMsg(e), "err"); btn.disabled = false; }
+};
+onAuthStateChanged(auth, async u => { $("#guest").classList.toggle("hidden", !!u); $("#user").classList.toggle("hidden", !u);
+  if (u && (await getRole(u.uid)) === "admin") $("#user a").href = "admin/dashboard.html"; });
+getDoc(doc(db, "platformSettings", "dedication")).then(s => showDedication(s.exists() ? s.data() : {})).catch(() => showDedication({}));
+</script>
+<script type="module" src="js/ui.js"></script>
+</body></html>
